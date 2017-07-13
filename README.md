@@ -1,8 +1,12 @@
 # thunkable-extensions
 This repository is intended to be for Thunkable extensions which are being considered for incorporation as Thunkable components.  
 
-Note that this is a public open source repository.  If you put your code in this repo your extension source can be freely used
-by anybody for any pupose.  See the [LICENSE](./LICENSE) file in this directory for more details.
+Note that this is a public open source repository using the Apache 2 license.  If you put your code in this repo your extension source can be freely used by anybody for any pupose.  Please make sure that your source code files contain a mention of the license by putting some comments near the top such as:
+```
+// Released under the Apache License, Version 2.0
+// http://www.apache.org/licenses/LICENSE-2.0
+```
+See the [LICENSE](./LICENSE) file in this directory for the gory details of the Apache 2 license.
 
 Please place extension source files in directory paths which reflect the package names that the source files use.  For example, if a source file has a package statement like:
 ```
